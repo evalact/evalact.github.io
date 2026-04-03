@@ -2,13 +2,13 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
-  color: #222;
-  background: #fff;
+  color: #1f2a44;
+  background: #f7f9fc;
 }
 
 header {
-  border-bottom: 1px solid #ddd;
-  background: white;
+  border-bottom: 1px solid #d6deea;
+  background: #17325c;
 }
 
 .topbar {
@@ -21,23 +21,26 @@ header {
   font-size: 1.8rem;
   font-weight: bold;
   margin: 0 0 12px 0;
+  color: white;
 }
 
 nav a {
   text-decoration: none;
-  color: #222;
+  color: #dbe6f5;
   margin-right: 20px;
   font-size: 0.95rem;
 }
 
 nav a:hover {
   text-decoration: underline;
+  color: white;
 }
 
 main {
   max-width: 1000px;
   margin: 40px auto;
   padding: 0 20px 60px;
+  background: white;
 }
 
 .hero {
@@ -46,35 +49,43 @@ main {
   object-fit: cover;
   display: block;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 h1 {
   font-size: 2.2rem;
   margin-bottom: 10px;
+  color: #17325c;
 }
 
 h2 {
   margin-top: 30px;
+  color: #17325c;
+}
+
+h3 {
+  font-size: 1.1rem;
+  color: #234a84;
 }
 
 .subtitle {
   font-size: 1.2rem;
-  color: #555;
+  color: #4a648c;
 }
 
 footer {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #d6deea;
   padding: 20px;
   max-width: 1000px;
   margin: 0 auto;
-  color: #666;
+  color: #5c6f8f;
   font-size: 0.9rem;
 }
 
 .button {
   display: inline-block;
   padding: 10px 16px;
-  background: #222;
+  background: #17325c;
   color: white;
   text-decoration: none;
   border-radius: 4px;
@@ -82,9 +93,10 @@ footer {
 }
 
 .button:hover {
-  background: #444;
+  background: #234a84;
 }
 
 .references {
-  font-size: 12px;
+  font-size: 14px;
+  color: #4a5a75;
 }
