@@ -43,7 +43,7 @@ main {
   background: white;
 }
 
-.hero {
+.title {
   width: 100%;
   height: 380px;
   object-fit: cover;
