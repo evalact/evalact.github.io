@@ -84,3 +84,7 @@ footer {
 .button:hover {
   background: #444;
 }
+
+.references {
+  font-size: 12px;
+}
