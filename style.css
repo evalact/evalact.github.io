@@ -114,6 +114,11 @@ footer {
   object-fit: contain;
 }
 
+.logo-left {
+  max-height: 140px;
+  max-width: 320px;
+}
+
 .keynotes {
   margin: 40px auto 30px;
   max-width: 900px;
