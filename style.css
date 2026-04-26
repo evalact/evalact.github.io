@@ -194,7 +194,7 @@ footer {
 }
 
 .keynote-card img[src="Dressler.jpg"] {
-  object-position: center top !important;
+  object-position: center 10% !important;
 }
 
 .logo-row img.logo-left {
