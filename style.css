@@ -204,3 +204,10 @@ footer {
   width: auto !important;
 }
 
+.support-note {
+  margin-top: 40px;
+  font-size: 0.95rem;
+  color: #5c6f8f;
+  text-align: center;
+}
+
