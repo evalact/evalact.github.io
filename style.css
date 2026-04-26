@@ -173,3 +173,8 @@ footer {
 .keynote-card a:hover {
   text-decoration: underline;
 }
+
+.logo-left {
+  height: 140px;
+  width: auto;
+}
