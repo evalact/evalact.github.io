@@ -192,3 +192,7 @@ footer {
   display: block;
   margin: 0 auto 12px;
 }
+
+.keynote-card img[src="Dressler.jpg"] {
+  object-position: center 30%;
+}
