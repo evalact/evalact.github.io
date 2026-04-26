@@ -119,6 +119,10 @@ footer {
   width: auto;
 }
 
+.subtitle {
+  text-align: center;
+}
+
 .keynotes {
   margin: 40px auto 30px;
   max-width: 900px;
@@ -151,6 +155,15 @@ footer {
   box-shadow: 0 10px 24px rgba(0,0,0,0.18);
 }
 
+.keynote-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
 .keynote-card h3 {
   margin: 0 0 8px;
   font-size: 1.1rem;
@@ -161,10 +174,6 @@ footer {
   color: #555;
 }
 
-.subtitle {
-  text-align: center;
-}
-
 .keynote-card a {
   color: inherit;
   text-decoration: none;
@@ -173,4 +182,3 @@ footer {
 .keynote-card a:hover {
   text-decoration: underline;
 }
-
