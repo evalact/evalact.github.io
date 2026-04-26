@@ -115,8 +115,8 @@ footer {
 }
 
 .logo-left {
-  max-height: 140px;
-  max-width: 320px;
+  height: 140px;
+  width: auto;
 }
 
 .keynotes {
@@ -174,7 +174,3 @@ footer {
   text-decoration: underline;
 }
 
-.logo-left {
-  height: 140px;
-  width: auto;
-}
