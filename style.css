@@ -115,8 +115,8 @@ footer {
 }
 
 .logo-left {
-  height: 400px;
-  width: auto;
+  height: 140px !important;
+  width: auto !important;
 }
 
 .subtitle {
@@ -181,4 +181,14 @@ footer {
 
 .keynote-card a:hover {
   text-decoration: underline;
+}
+
+.keynote-card img {
+  width: 140px !important;
+  height: 140px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 50% !important;
+  display: block;
+  margin: 0 auto 12px;
 }
