@@ -113,3 +113,45 @@ footer {
   max-width: 220px;
   object-fit: contain;
 }
+
+.keynotes {
+  margin: 40px auto 30px;
+  max-width: 900px;
+  text-align: center;
+}
+
+.keynotes h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.keynote-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.keynote-card {
+  background: #ffffff;
+  padding: 22px 24px;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  min-width: 220px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.keynote-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+}
+
+.keynote-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+}
+
+.keynote-card p {
+  margin: 0;
+  color: #555;
+}
